@@ -16,7 +16,7 @@ var transformRuntime = ["@babel/plugin-transform-runtime", {
   "corejs": 3,
   "helpers": true,
   "regenerator": true,
-  "useESModules": false
+  "useESModules": true
 }];
 
 var PRESETS = {
